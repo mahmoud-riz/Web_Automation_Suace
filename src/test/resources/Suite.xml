@@ -1,0 +1,26 @@
+<suite thread-count="1" verbose="1" name="Sauce Demo Portal Automation">
+
+
+
+    <test name="User Login">
+        <classes>
+            <class name="runner.LoginTestRunner"/>
+        </classes>
+    </test>
+    <test name="Add item to cart">
+        <classes>
+            <class name="runner.CartTestRunner"/>
+        </classes>
+    </test>
+    <test name="Product Details">
+        <classes>
+            <class name="runner.ProductPage"/>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
+
