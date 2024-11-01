@@ -17,10 +17,6 @@ Clone this project
 
 Hit the following command into the terminal: gradle clean test
 
-https://github.com/user-attachments/assets/893fa0d3-7e20-43b6-9d77-30dfa56c5289
-
-
-
 For generating Allure Report use these commands: allure generate allure-results --clean -o allure-report and allure serve allure-results
 
 # Why Gradle over Maven ? 
